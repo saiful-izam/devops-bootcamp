@@ -1,0 +1,4 @@
+elastic-ip: 13.50.6.31
+web: web.saiful-izam.my (A record, proxied)
+tunnel: cloudflare2.saiful-izam.my
+ssl-mode: Flexible
