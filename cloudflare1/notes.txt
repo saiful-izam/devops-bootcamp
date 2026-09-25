@@ -1,0 +1,3 @@
+nameserver: eoin.ns.cloudflare.com, lara.ns.cloudflare.com
+portfolio: saiful-izam.pages.dev, www.saiful-izam.my
+private-site: web.saiful-izam.my
