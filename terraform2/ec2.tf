@@ -9,7 +9,7 @@ data "aws_ami" "my_ami" {
 }
 
 data "aws_iam_instance_profile" "my_ssm_profile" {
-  name = "SSM-EC2-role "
+  name = "SSM-EC2-role"
 }
 
 # < bersambung
