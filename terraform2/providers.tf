@@ -6,6 +6,13 @@ terraform {
       version = "~> 6.0"
     }
   }
+
+  backend "s3" {
+  bucket       = "boocamp-2026-saiful-izam-078716600792-ap-southeast-1-an"
+  key          = "terraform2/terraform.tfstate"
+  region       = "ap-southeast-1"
+  use_lockfile = true
+  }
 }
 
 provider "aws" {
